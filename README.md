@@ -1,5 +1,6 @@
 # Recipes-
 
-This is a recipe app that uses the REST API to return JSON data giving each item an unique key. 
+This is a recipe app that uses the alamofire to make HTTP request to the REST API and swiftyJSON to return JSON data.
+Each item has an unique generated key
 The data will then be populated into the tableview by the "title" id
 The user can add new recipes, edit the descriptions, and also removing them as well.  
